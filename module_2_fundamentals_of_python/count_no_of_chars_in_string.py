@@ -8,4 +8,5 @@ for key in user_str:
       use get(key,value) dictionary method to return the value with +1
     ''' 
     res[key] = res.get(key,0) + 1
+ # print result dictionary   
 print(res)    
