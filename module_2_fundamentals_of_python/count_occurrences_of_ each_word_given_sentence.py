@@ -10,4 +10,5 @@ word = str1.split(" ")
 ''' 
 for key in word:
     result[key] = result.get(key,0) + 1
+# print result dictionary    
 print(result) 
