@@ -1,6 +1,6 @@
 str1 = "kajal"
 str2 = "asodiya"
-x = str2[:1]+str1[1:]  #get the first character of str2 and get all the characters of str1 except first charcater 
-y = str1[:1]+str2[1:]  #get the first character of str1 and get all the characters of str2 except first charcater
+x = str2[:2]+str1[2:]  #get the first two characters of str2 and get all the characters of str1 except first two charcaters 
+y = str1[:2]+str2[2:]  #get the first two characters of str1 and get all the characters of str2 except first two charcaters
 str3 = x +" "+y    # concates the x and y with space
 print(str3)
