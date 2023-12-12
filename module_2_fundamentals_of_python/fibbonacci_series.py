@@ -3,7 +3,7 @@ n1 = 0
 n2 = 1
 # third term is sum of first and second term
 n3 = n2 + n1
-# enter how many steps to continue fibonacci series
+# enter how many steps to continue with fibonacci series
 step = int(input("Enter the steps to print fibonacci series:"))
 # print first, second and third term
 print("Fibonacci series:",n1,n2,n3,end=" ")
