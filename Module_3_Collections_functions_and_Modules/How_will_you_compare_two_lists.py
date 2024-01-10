@@ -20,9 +20,13 @@ l1 = [1,2,3,4,5]
 l2 = [2,3,5,4,7]
 l3 = [5,1,3,2,4]
 
-print(l1.sort())
-print(l2.sort())
-print(l3.sort())
+l1.sort()
+l2.sort()
+l3.sort()
+ 
+print(l1) 
+print(l2)
+print(l3)
 
 if l1 == l2:
     print("lists l1 and l2 are the same")
